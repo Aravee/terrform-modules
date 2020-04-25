@@ -18,10 +18,10 @@ module "acm_cert"
 
 ## Variables
 
-`domain_names` - Primary domain and All other Subject Alternative Names(goes here as a list).
-`tags` - Used for tagging the ACMs (goes here as a map).
-`hosted_zone_id` -  Hosted Zone Id of the domain name.
-`validation_record_ttl` - Route 53 record time-to-live (TTL) for validation record (default: `60`).
+- `domain_names` - Primary domain and All other Subject Alternative Names(goes here as a list).
+- `tags` - Used for tagging the ACMs (goes here as a map).
+- `hosted_zone_id` -  Hosted Zone Id of the domain name.
+- `validation_record_ttl` - Route 53 record time-to-live (TTL) for validation record (default: `60`).
 
 ## Outputs
 
