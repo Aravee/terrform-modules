@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/**
+.idea/
+
+# Terraform
+.out/**
+.terraform/**
+terraform.tfvars
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+**/.terraform/**
+crash.log
+debug.tmp
+**/tf-upgrade-status
+# secrets
+/migration/*
+
+# k8s
+generated/
